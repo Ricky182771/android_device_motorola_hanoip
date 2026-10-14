@@ -195,7 +195,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor
 
 PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-sp/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++.so
+    $(LOCAL_PATH)/prebuilts/vndk-v29/lib64/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++.so
 
 # Init
 PRODUCT_PACKAGES += \
@@ -458,8 +458,8 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v29/arm/arch-arm-armv7-a-neon/shared/vndk-core/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full.so \
-    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full.so 
+    $(LOCAL_PATH)/prebuilts/vndk-v29/lib/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full.so \
+    $(LOCAL_PATH)/prebuilts/vndk-v29/lib64/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full.so
 
 # QMI
 PRODUCT_PACKAGES += \
