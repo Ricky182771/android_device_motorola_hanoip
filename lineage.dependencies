@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "Ricky182771/android_kernel_motorola_sm7150",
+    "target_path": "kernel/motorola/sm7150",
+    "branch": "lineage-24.0"
+  },
+  {
+    "repository": "Ricky182771/proprietary_vendor_motorola_hanoip",
+    "target_path": "vendor/motorola/hanoip",
+    "branch": "lineage-24.0"
+  }
+]
