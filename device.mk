@@ -194,9 +194,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
     android.frameworks.displayservice@1.0.vendor
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/vndk-v29/lib64/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++.so
-
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
