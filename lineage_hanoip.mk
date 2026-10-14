@@ -37,14 +37,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Flags
-TARGET_UNOFFICIAL_BUILD_ID := Kevin
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-TARGET_SUPPORTS_QUICK_TAP := true
-
 # Build info
-BUILD_FINGERPRINT := "motorola/hanoip_retail/hanoip:11/S2RI32.32-20-9-9-2/1591b:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="hanoip_retail-user 11 S2RI32.32-20-9-9-2 1591b release-keys"
+    BuildDesc="hanoip_retail-user 11 S2RI32.32-20-9-9-2 1591b release-keys" \
+    BuildFingerprint=motorola/hanoip_retail/hanoip:11/S2RI32.32-20-9-9-2/1591b:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
